@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Greenprint Initiative</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/150x40?text=Greenprint+Logo" alt="The Greenprint Initiative">
+    <nav>
+      <button data-page="about" onclick="navigate('about')">About Us</button>
+      <button data-page="ourstory" onclick="navigate('ourstory')">Our Story</button>
+      <button data-page="getinvolved" onclick="navigate('getinvolved')">Get Involved</button>
+    </nav>
+
+  </header>
+
+  <main id="content">
+    <!-- Content dynamically inserted here -->
+  </main>
+
+  <footer>
+        <h2>Join Our Community</h2>
+        <p>Be the first to know about new briefings, and opportunities to get involved.</p>
+        <form action="https://formspree.io/f/xdkdllnv" method="POST">
+            <label>
+                Your email:
+                <input type="email" name="email" placeholder="Enter your email">
+            </label>
+            <button type="submit">Subscribe</button>
+        </form>
+        <div class="social-links">
+            </div>
+        <p>&copy; 2025 The Greenprint Initiative</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

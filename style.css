@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background-color: #f0fdf4;
+  color: #1f4f2c;
+}
+
+header, footer {
+  background-color: #1f4f2c;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 40px;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: white;
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+}
+
+nav button.active {
+  border-bottom: 2px solid #a5d6a7;
+}
+
+.dropdown-section {
+  margin-top: 2rem;
+}
+
+.dropbtn {
+  background-color: #34a853;
+  color: white;
+  padding: 1rem;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  margin-top: 1rem;
+}
+
+.dropbtn:hover {
+  background-color: #2e7d32;
+}
+
+.dropdown-content {
+  background-color: #e8f5e9;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  display: none;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.dropdown.open .dropdown-content {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+button {
+  background-color: #34a853;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #2e7d32; 
+  transition: 0.2s ease-in-out;
+}
+
+footer a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
